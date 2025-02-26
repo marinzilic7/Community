@@ -1,3 +1,3 @@
 <template>
-    Home
+   <NuxtImg src="/images/background.png" /> 
 </template>
