@@ -28,7 +28,12 @@
               <NuxtLink class="nav-link" to="#">Blog</NuxtLink>
             </li>
             <li class="nav-item">
-              <NuxtLink class="nav-link" to="#">Be</NuxtLink>
+              <NuxtLink class="nav-link" to="#"
+                ><i class="fa-brands fa-dribbble"></i
+              ></NuxtLink>
+            </li>
+            <li class="nav-item">
+              <NuxtLink class="nav-link" to="#"><i class="fa-brands fa-behance"></i></NuxtLink>
             </li>
           </ul>
         </div>

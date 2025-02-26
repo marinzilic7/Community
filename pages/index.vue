@@ -1,6 +1,3 @@
 <template>
-    <div>
-        Sta ima
-        <i class="fas fa-home"></i>
-    </div>
+  <div>Sta ima</div>
 </template>
