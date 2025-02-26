@@ -1,3 +1,5 @@
 <template>
-   <NuxtImg src="/images/background.png" /> 
+    <div>
+        Sta ima
+    </div>
 </template>
