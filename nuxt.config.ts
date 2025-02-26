@@ -1,4 +1,15 @@
 export default defineNuxtConfig({
+  app: {
+    head: {
+      title: "Community",
+      link: [
+        {
+          rel: "stylesheet",
+          href: "https://fonts.googleapis.com/css2?family=DM+Sans:opsz@9..40&display=swap",
+        },
+      ],
+    },
+  },
   compatibilityDate: "2024-11-01",
   devtools: { enabled: true },
   modules: ["@nuxt/image"],
