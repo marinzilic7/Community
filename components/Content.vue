@@ -24,16 +24,19 @@
 <style lang="scss" scoped>
 @import "@/assets/colors.scss";
 .content {
-
   padding: 100px 0;
   position: relative;
   z-index: 3;
 
-
-
-  .main-content{
+  .main-content {
     position: relative;
-    z-index:3;
+    z-index: 3;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .d-block {
+    display: inline !important;
   }
 }
 </style>

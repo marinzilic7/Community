@@ -63,4 +63,20 @@
     z-index:1;
   }
 }
+
+@media screen and (max-width: 576px) {
+  .main {
+    .main-items {
+      h1 {
+        font-size: 2.5rem;
+      }
+      h5{
+        font-size: 1rem;
+        .d-block{
+            display:inline !important;
+        }
+      }
+    }
+  }
+}
 </style>
