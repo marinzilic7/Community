@@ -1,6 +1,6 @@
 <template>
   <div>
-    <nav class="navbar navbar-expand-lg p-lg-4">
+    <nav class="navbar navbar-expand-lg p-lg-4 ">
       <div class="container-fluid">
         <button
           class="navbar-toggler ms-auto"
