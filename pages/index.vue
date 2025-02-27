@@ -1,6 +1,6 @@
 <template>
   <div class="main">
-    <Navbar/>
+    <Navbar class="navbar-nav" />
     <div class="main-items d-flex flex-column gap-3">
         
       <h4 class="startup-text text-center text-light">Startup 3</h4>
@@ -42,12 +42,11 @@
     opacity: 0.5;
   }
 
-
   .main-items {
     position: relative;
     z-index: 1;
     h1 {
-      font-size: 4.5rem;
+      font-size: 3.5rem;
     }
 
     .startup-text{
@@ -56,6 +55,9 @@
   }
 
   button{
+    background-color: $button-color;
+    border:none; 
+    border-radius: 20px;
     position: relative;
     z-index:1;
   }
