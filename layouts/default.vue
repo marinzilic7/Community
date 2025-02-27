@@ -1,9 +1,9 @@
 <template>
   <div>
-    <nav class="navbar navbar-expand-lg bg-body-tertiary">
-      <div class="container-fluid ">
+    <nav class="navbar navbar-expand-lg p-lg-4">
+      <div class="container-fluid">
         <button
-          class="navbar-toggler  ms-auto"
+          class="navbar-toggler ms-auto"
           type="button"
           data-bs-toggle="collapse"
           data-bs-target="#navbarSupportedContent"
@@ -11,29 +11,33 @@
           aria-expanded="false"
           aria-label="Toggle navigation"
         >
-          <span class="navbar-toggler-icon"></span>
+          <i class="fa-solid fa-bars" style="color: #ffffff"></i>
         </button>
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav me-auto ms-auto mb-2 mb-lg-0">
+          <ul class="navbar-nav me-auto ms-auto mb-2 mb-lg-0 gap-4">
             <li class="nav-item">
-              <NuxtLink class="nav-link active" to="/">Home</NuxtLink>
+              <NuxtLink class="nav-link active text-light" to="/"
+                >Home</NuxtLink
+              >
             </li>
             <li class="nav-item">
-              <NuxtLink class="nav-link" to="#">Features</NuxtLink>
+              <NuxtLink class="nav-link text-light" to="#">Features</NuxtLink>
             </li>
             <li class="nav-item">
-              <NuxtLink class="nav-link" to="#">Pricing</NuxtLink>
+              <NuxtLink class="nav-link text-light" to="#">Pricing</NuxtLink>
             </li>
             <li class="nav-item">
-              <NuxtLink class="nav-link" to="#">Blog</NuxtLink>
+              <NuxtLink class="nav-link text-light" to="#">Blog</NuxtLink>
             </li>
             <li class="nav-item">
-              <NuxtLink class="nav-link" to="#"
+              <NuxtLink class="nav-link text-light" to="#"
                 ><i class="fa-brands fa-dribbble"></i
               ></NuxtLink>
             </li>
             <li class="nav-item">
-              <NuxtLink class="nav-link" to="#"><i class="fa-brands fa-behance"></i></NuxtLink>
+              <NuxtLink class="nav-link text-light" to="#"
+                ><i class="fa-brands fa-behance"></i
+              ></NuxtLink>
             </li>
           </ul>
         </div>
@@ -44,3 +48,22 @@
     </div>
   </div>
 </template>
+
+<style scoped lang="scss">
+.navbar {
+  background-color: #956ca6;
+  
+}
+
+@media screen and (max-width: 576px) {
+  .navbar {
+    padding: 20px;
+
+    .navbar-nav {
+      text-align: center;
+      letter-spacing: 3px;
+      
+    }
+  }
+}
+</style>
