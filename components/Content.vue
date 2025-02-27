@@ -31,6 +31,10 @@
   .main-content {
     position: relative;
     z-index: 3;
+    h1{
+        font-weight: 900;
+        letter-spacing: 3px;
+    }
   }
 }
 
