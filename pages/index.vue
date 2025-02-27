@@ -1,7 +1,9 @@
 <template>
-  <div class="main d-flex flex-column">
-    <div class="main-items d-flex flex-column alig-items-center gap-3">
-      <h4 class="text-center text-light">Startup 3</h4>
+  <div class="main">
+    <Navbar/>
+    <div class="main-items d-flex flex-column gap-3">
+        
+      <h4 class="startup-text text-center text-light">Startup 3</h4>
       <h1 class="text-center text-light">Forget About Code</h1>
       <h5 class="text-center text-light">
         Startup Framework gives you complete freedom over your creative
@@ -21,14 +23,41 @@
 @import "@/assets/colors.scss";
 
 .main {
-  background: url("@/public/images/hero-image.png");
+  background-image: url("@/public/images/hero-image.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100vh;
+  position: relative;
+  z-index: 1;
+  
+  &::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color:$background-color;
+    opacity: 0.5;
+  }
+
 
   .main-items {
-    margin-top: 5rem;
-
+    position: relative;
+    z-index: 1;
     h1 {
       font-size: 4.5rem;
     }
+
+    .startup-text{
+        margin-top:10rem;
+    }
+  }
+
+  button{
+    position: relative;
+    z-index:1;
   }
 }
 </style>

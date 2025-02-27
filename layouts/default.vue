@@ -50,10 +50,6 @@
 </template>
 
 <style scoped lang="scss">
-.navbar {
-  background-color: #956ca6;
-  
-}
 
 @media screen and (max-width: 576px) {
   .navbar {
