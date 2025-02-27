@@ -17,6 +17,7 @@
       <button class="btn btn-primary">Create an account</button>
     </div>
   </div>
+  <Content/>
 </template>
 
 <style scoped lang="scss">
