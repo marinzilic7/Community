@@ -18,6 +18,7 @@
     </div>
   </div>
   <Content/>
+  <Features/>
 </template>
 
 <style scoped lang="scss">
