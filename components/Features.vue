@@ -1,36 +1,73 @@
 <template>
-    <div class="features">
-        <div class="features-items">
-            <div>
-                <NuxtImg src="/images/macbook.png" alt="macbook-img" />
-            </div>
-            <div>
-                <h1>We Create Something New</h1>
-                <h5>We have created a new product that will help designers, <span class="d-block">developers and companies create websites for their </span> <span class="d-block">startups quickly and easily. </span></h5>
-                <div>
-                    <div>
-                        <NuxtImg src="/images/feature-icon.png" alt="feature-icon" />
-                        <p>30 NEW FEATURE PAGES</p>
-                        <p>Startup Framework contains <span class="d-block">components and complex blocks</span> <span class="d-block">which can easily.</span></p>
-                    </div>
-                    <div>
-                        <i class="fa-regular fa-gem"></i>
-                        <p>USEFUL SYMBOL COMPONENTS</p>
-                        <p>Samples will show you the feeling on <span class="d-block">how to play around using the</span> <span class="d-block">components.</span></p>
-                    </div>
-                </div>
-            </div>
+  <div class="features">
+    <div class="features-items d-flex align-items-center position-relative z-3">
+      <div class="img-items flex-grow-1 position-relative" >
+        <NuxtImg src="/images/macbook.png" alt="macbook-img"  />
+        <NuxtImg src="/images/screen.png" class="screen" alt="screen" />
+      </div>
+      <div class="flex-grow-1">
+        <h1 class="text-light">We Create Something New</h1>
+        <p class="text-light mt-3 fs-5">
+          We have created a new product that will help designers,
+          developers and companies create <span class="d-block"
+          > websites for their startups quickly and easily.
+          </span>
+         
+        </p>
+        <div class="d-flex gap-5 mt-5">
+          <div>
+            <NuxtImg src="/images/feature-icon.png" alt="feature-icon" />
+            <p class="text-light mt-3">30 NEW FEATURE PAGES</p>
+            <p class="text-light">
+              Startup Framework contains
+             components and  <span class="d-block">complex blocks which can easily.</span>
+              
+            </p>
+          </div>
+          <div>
+            <i class="fa-regular fa-gem text-light fs-2"></i>
+            <p class="text-light mt-3">USEFUL SYMBOL COMPONENTS</p>
+            <p class="text-light">
+              Samples will show you the feeling on
+             how to play  <span class="d-block">around using the components.</span>
+              
+            </p>
+          </div>
         </div>
+      </div>
     </div>
+  </div>
 </template>
 
 <style scoped lang="scss">
+@import "@/assets/colors.scss";
 
-.features{
-    background-image: url("@/public/images/background-mac.png");
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
+.features {
+  background-image: url("@/public/images/background-mac.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  position: relative;
+  z-index: 1;
+  padding: 200px 0;
+
+  &::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: $background-color;
+    opacity: 0.5;
+  }
+
+  .img-items{
+    .screen{
+        position: absolute;
+        left:0;
+        top:5%;
+    }
+  }
 }
-
 </style>
