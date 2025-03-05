@@ -1,5 +1,5 @@
 <template>
-  <div class="features">
+  <div id="features" class="features">
     <div class="features-items d-flex align-items-center position-relative z-3">
       <div class="img-items flex-grow-1 position-relative">
         <img

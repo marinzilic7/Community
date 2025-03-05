@@ -43,7 +43,9 @@ onMounted(() => {
               >
             </li>
             <li class="nav-item">
-              <NuxtLink class="nav-link text-light" to="#">Features</NuxtLink>
+              <NuxtLink class="nav-link text-light" to="#features"
+                >Features</NuxtLink
+              >
             </li>
             <li class="nav-item">
               <NuxtLink class="nav-link text-light" to="#">Pricing</NuxtLink>
