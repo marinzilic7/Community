@@ -9,7 +9,7 @@
         />
         <img src="/images/screen.png" class="screen" alt="screen" />
       </div>
-      <div class="flex-grow-1">
+      <div class="first-items flex-grow-1">
         <h1 class="text-light">We Create Something New</h1>
         <p class="text-light mt-3 fs-5">
           We have created a new product that will help designers, developers and
@@ -64,8 +64,6 @@
     opacity: 0.5;
   }
 
- 
-
   .img-items {
     .screen {
       position: absolute;
@@ -84,14 +82,23 @@
 @media screen and (max-width: 576px) {
   .features {
     padding: 50px 5vh;
-  }
-
-  .macbook-img-class,
-  .screen {
-    display: none;
-  }
-  .d-block {
-    display: inline !important;
+    .macbook-img-class,
+    .screen {
+      display: none;
+    }
+    .d-block {
+      display: inline !important;
+    }
+    .first-items {
+      h1 {
+        font-size: 24px;
+        letter-spacing: 2px;
+      }
+      p {
+        font-size: 16px !important;
+        line-height: 2;
+      }
+    }
   }
 }
 </style>

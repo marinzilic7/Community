@@ -2,7 +2,6 @@
   <div class="main">
     <Navbar class="navbar-nav" />
     <div class="main-items d-flex flex-column gap-3">
-        
       <h4 class="startup-text text-center text-light">Startup 3</h4>
       <h1 class="text-center text-light">Forget About Code</h1>
       <h5 class="text-center text-light">
@@ -17,8 +16,9 @@
       <button class="btn btn-primary">Create an account</button>
     </div>
   </div>
-  <Content/>
-  <Features/>
+  <Content />
+  <Features />
+  <Auth />
 </template>
 
 <style scoped lang="scss">
@@ -32,7 +32,7 @@
   height: 100vh;
   position: relative;
   z-index: 1;
-  
+
   &::before {
     content: "";
     position: absolute;
@@ -40,7 +40,7 @@
     left: 0;
     right: 0;
     bottom: 0;
-    background-color:$background-color;
+    background-color: $background-color;
     opacity: 0.5;
   }
 
@@ -51,17 +51,17 @@
       font-size: 3.5rem;
     }
 
-    .startup-text{
-        margin-top:10rem;
+    .startup-text {
+      margin-top: 10rem;
     }
   }
 
-  button{
+  button {
     background-color: $button-color;
-    border:none; 
+    border: none;
     border-radius: 20px;
     position: relative;
-    z-index:1;
+    z-index: 1;
   }
 }
 
@@ -71,10 +71,10 @@
       h1 {
         font-size: 2.5rem;
       }
-      h5{
+      h5 {
         font-size: 1rem;
-        .d-block{
-            display:inline !important;
+        .d-block {
+          display: inline !important;
         }
       }
     }
