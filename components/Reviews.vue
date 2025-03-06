@@ -5,7 +5,7 @@
         Our Happy Clients
         <div>
           <div>
-            <img src="" alt="" />
+            <img src="@/public/images/user4.png" alt="" />
             <div>
               <p>
                 "Get a fully retina ready site when
@@ -18,7 +18,7 @@
             </div>
           </div>
           <div>
-            <img src="" alt="" />
+            <img src="@/public/images/user2.png" alt="" />
             <div>
               <p>
                 "As a business targeting high net
@@ -30,7 +30,7 @@
             </div>
           </div>
           <div>
-            <img src="" alt="" />
+            <img src="@/public/images/user3.png" alt="" />
             <div>
               <p>
                 "The most impornant part of the
@@ -40,7 +40,7 @@
             </div>
           </div>
           <div>
-            <img src="" alt="" />
+            <img src="@/public/images/user1.png" alt="" />
             <div>
               <p>
                 I've build my website with Startup
