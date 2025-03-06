@@ -16,7 +16,7 @@
           <h1 class="text-center text-light">
             $9.99 <span class="fs-6">/month</span>
           </h1>
-          <div class=" center-items mt-5 d-flex flex-column  aligin-items-center">
+          <div class="center-items mt-5 d-flex flex-column  aligin-items-center">
             <div class="d-flex gap-2">
               <i class="fa-solid fa-check text-success"></i>
               <p>2 GB of backups</p>
@@ -58,7 +58,7 @@
             </button>
           </div>
         </div>
-        <div class="single-item border">
+        <div class="single-item d-flex flex-column border">
           <h5 class="text-center text-light">Professional</h5>
           <h1 class="text-center text-light">
             $19.99 <span class="fs-6">/month</span>
@@ -104,12 +104,12 @@
             <button class="btn btn-danger text-light mt-5">Get Started</button>
           </div>
         </div>
-        <div class="single-item border">
+        <div class="single-item d-flex flex-column border">
           <h5 class="text-center text-light">Team</h5>
           <h1 class="text-center text-light">
             $49.99 <span class="fs-6">/month</span>
           </h1>
-          <div class=" center-items mt-5 d-flex flex-column">
+          <div class="center-items mt-5 d-flex flex-column">
             <div class="d-flex gap-2">
               <i class="fa-solid fa-check text-success"></i>
               <p>2 GB of backups</p>
@@ -203,6 +203,34 @@
   }
 }
 
+@media screen and (max-width: 878px) {
+    .plan {
+        padding: 50px 20px;
+        .plan-items {
+        .items-plan {
+            display: grid !important;
+            grid-template-columns: repeat(1, 1fr) !important;
+            
+            gap: 50px;
+            .single-item {
+            padding: 5vh 5vh;
+            }
+            button{
+                width: 100%;
+            }
+        }
+        }
+    }
+
+    .center-items{
+        display: flex;
+        flex-direction: column;
+        align-items:start;
+        justify-content: center;
+        align-self: center; 
+    }
+}
+
 @media screen and (max-width: 576px) {
     .plan {
         padding: 50px 20px;
@@ -214,6 +242,9 @@
             gap: 50px;
             .single-item {
             padding: 5vh 5vh;
+            }
+            button{
+                width: 100%;
             }
         }
         }
