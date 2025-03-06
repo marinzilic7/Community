@@ -21,6 +21,7 @@
   <Auth />
   <Reviews/>
   <Gallery/>
+  <Setup/>
 </template>
 
 <style scoped lang="scss">
