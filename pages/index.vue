@@ -22,6 +22,7 @@
   <Reviews/>
   <Gallery/>
   <Setup/>
+  <Crew/>
 </template>
 
 <style scoped lang="scss">
