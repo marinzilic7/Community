@@ -1,0 +1,33 @@
+@media screen and (max-width: 578px) {
+    .footer {
+      padding: 50px 10px !important;
+    }
+  
+    .first-row{
+      flex-direction: column;
+      align-items: center;
+      gap:20px  ;
+    }
+  
+    .privacy{
+      flex-direction: column;
+      align-items: center;
+      gap:20px !important;
+      p{
+          margin:0 !important;
+      }
+    }
+  
+    .third-row{
+      flex-direction: column;
+      align-items: center;
+      gap:20px !important;
+    }
+    
+    .big-items{
+      flex-direction: column;
+      align-items: center;
+      gap:5px !important;
+      margin:0 !important;
+    }
+  }

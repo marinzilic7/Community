@@ -1,11 +1,11 @@
 <template>
   <div class="footer">
     <div class="footer-items">
-      <div
-        class="first-row d-flex  justify-content-between align-items-center"
-      >
+      <div class="first-row d-flex justify-content-between align-items-center">
         <h1 class="ms-lg-5 ms-xl-5">Startup3</h1>
-        <div class="privacy d-flex  align-self-center gap-5  me-lg-5 ms-xl-5 ms-lg-5">
+        <div
+          class="privacy d-flex align-self-center gap-5 me-lg-5 ms-xl-5 ms-lg-5"
+        >
           <p>Privacy Policy</p>
           <p>Terms</p>
           <i class="fa-brands fa-twitter"></i>
@@ -16,9 +16,9 @@
       <div class="second-row ms-5 mt-5 me-5">
         <hr />
       </div>
-      <div class="third-row d-flex  justify-content-between mt-5">
+      <div class="third-row d-flex justify-content-between mt-5">
         <div>
-          <div class="big-items d-flex  gap-5 ms-5">
+          <div class="big-items d-flex gap-5 ms-5">
             <p>Tour</p>
             <p>Features</p>
             <p>Pricing Plans</p>
@@ -27,8 +27,8 @@
             <p>Contacts</p>
           </div>
         </div>
-        <div class="me-lg-5 me-xl-5 ">
-          <p >@2025 Marin Žilić, All rights reserved.</p>
+        <div class="me-lg-5 me-xl-5">
+          <p>@2025 Marin Žilić, All rights reserved.</p>
         </div>
       </div>
     </div>
@@ -36,43 +36,6 @@
 </template>
 
 <style lang="scss" scoped>
-.footer {
-  background-color: #2f1893;
-  padding: 50px 20px;
-  color: #fff;
-}
-
-@media screen and (max-width: 578px) {
-  .footer {
-    padding: 50px 10px !important;
-  }
-
-  .first-row{
-    flex-direction: column;
-    align-items: center;
-    gap:20px  ;
-  }
-
-  .privacy{
-    flex-direction: column;
-    align-items: center;
-    gap:20px !important;
-    p{
-        margin:0 !important;
-    }
-  }
-
-  .third-row{
-    flex-direction: column;
-    align-items: center;
-    gap:20px !important;
-  }
-  
-  .big-items{
-    flex-direction: column;
-    align-items: center;
-    gap:5px !important;
-    margin:0 !important;
-  }
-}
+@import "@/assets/components/footer.scss";
+@import "@/assets/media/footer.scss";
 </style>
