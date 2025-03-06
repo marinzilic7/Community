@@ -56,7 +56,7 @@
   </div>
 </template>
 
-<style scoped lang="scss">
+<style lang="scss" scoped>
 @import "@/assets/colors.scss";
 
 .auth-items {
@@ -86,7 +86,6 @@
     display: flex;
     flex-direction: column;
     padding: 0 2vh 5vh 2vh !important;
-    
   }
   .d-block {
     display: inline !important;
@@ -96,9 +95,9 @@
 @media screen and (max-width: 576px) {
   .auth-items {
     padding: 0 2vh 5vh 2vh !important;
-    .form-items{
-        padding: 20px 10px !important;
-        margin-top: 20px;
+    .form-items {
+      padding: 20px 10px !important;
+      margin-top: 20px;
     }
   }
   .d-block {

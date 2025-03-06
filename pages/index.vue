@@ -19,6 +19,7 @@
   <Content />
   <Features />
   <Auth />
+  <Reviews/>
 </template>
 
 <style scoped lang="scss">
