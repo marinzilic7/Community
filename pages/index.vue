@@ -20,6 +20,7 @@
   <Features />
   <Auth />
   <Reviews/>
+  <Gallery/>
 </template>
 
 <style scoped lang="scss">
