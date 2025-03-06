@@ -10,22 +10,22 @@
       <div class="gallery-items mt-5">
         <div>
           <img src="@/public/images/photo1.png" alt="" />
-          <p class="mt-4">UI KIT</p>
+          <p class="mt-2 mt-lg-4 mt-md-3 mt-sm-2 mt-xl-4">UI KIT</p>
           <h2>Mozart Project</h2>
         </div>
         <div>
           <img src="@/public/images/photo2.png" alt="" />
-          <p class="mt-4">Framework</p>
+          <p class="mt-2 mt-lg-4 mt-md-3 mt-sm-2 mt-xl-4">Framework</p>
           <h2>Startup Framework 2.0</h2>
         </div>
         <div>
           <img src="@/public/images/photo3.png" alt="" />
-          <p class="mt-4">UI PHOTOS</p>
+          <p class="mt-2 mt-lg-4 mt-md-3 mt-sm-2 mt-xl-4">UI PHOTOS</p>
           <h2>Fromo the Sky</h2>
         </div>
         <div>
           <img src="@/public/images/photo4.png" alt="" />
-          <p class="mt-4">Pictures</p>
+          <p class="mt-2 mt-lg-4 mt-md-3 mt-sm-2 mt-xl-4">Pictures</p>
           <h2>Air Forces</h2>
         </div>
       </div>
@@ -54,18 +54,22 @@
   .gallery-items {
     display: grid;
     grid-template-columns: repeat(1, 1fr) !important;
-    gap: 20px;
+    img {
+      max-width: 100%;
+    }
   }
 }
 
 @media screen and (max-width: 576px) {
   .main-gallery-items {
-    padding: 0 50px;
+    padding: 0 10px;
   }
   .gallery-items {
     display: grid;
     grid-template-columns: repeat(1, 1fr) !important;
-    gap: 20px;
+    img {
+      max-width: 100%;
+    }
   }
 }
 </style>
