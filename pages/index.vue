@@ -24,6 +24,7 @@
   <Setup/>
   <Crew/>
   <Plan/>
+  <Footer/>
 </template>
 
 <style scoped lang="scss">
