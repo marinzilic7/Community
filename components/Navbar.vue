@@ -71,37 +71,9 @@ onMounted(() => {
 </template>
 
 <style lang="scss" scoped>
-@import "@/assets/colors.scss";
 
-.navbar-nav {
-  text-align: center;
-  letter-spacing: 2px;
-  font-size: 17px !important;
-}
+@import "@/assets/components/_navbar.scss";
+@import "@/assets/media/_navbar.scss";
 
-@media screen and (max-width: 576px) {
-  .bg-active {
-    background-color: #2f1893 !important;
-    height: 100vh;
-    position: absolute;
-    width: 100%;
-    z-index: 3;
-  }
-  .navbar {
-    padding: 20px;
 
-    .navbar-nav {
-      text-align: center;
-      letter-spacing: 3px;
-      font-size: 18px !important;
-    }
-
-    .navbar-toggler {
-      position: absolute;
-      right: 0;
-      top: 0;
-      margin: 10px;
-    }
-  }
-}
 </style>

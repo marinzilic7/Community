@@ -1,0 +1,39 @@
+@import "@/assets/colors.scss";
+.plan {
+  background-image: url("@/public/images/plan.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  position: relative;
+  z-index: 1;
+  padding: 100px 0;
+
+  &::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: $background-color;
+    opacity: 0.5;
+  }
+
+  .plan-items {
+    position: relative;
+    z-index: 1;
+
+    .items-plan {
+      p {
+        color: #fff;
+      }
+
+      .single-item {
+        padding: 5vh 10vh;
+      }
+      .text-muted {
+        color: rgb(156 163 175) !important;
+      }
+    }
+  }
+}

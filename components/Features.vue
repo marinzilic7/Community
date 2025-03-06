@@ -42,63 +42,7 @@
 </template>
 
 <style scoped lang="scss">
-@import "@/assets/colors.scss";
+@import "@/assets/components/_features.scss";
+@import "@/assets/media/_features.scss";
 
-.features {
-  background-image: url("@/public/images/background-mac.png");
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-  position: relative;
-  z-index: 1;
-  padding: 200px 0;
-
-  &::before {
-    content: "";
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    background-color: $background-color;
-    opacity: 0.5;
-  }
-
-  .img-items {
-    .screen {
-      position: absolute;
-      left: 0;
-      top: 5%;
-    }
-  }
-}
-
-@media screen and (max-width: 878px) {
-  .features {
-    padding: 100px 5vh;
-  }
-}
-
-@media screen and (max-width: 576px) {
-  .features {
-    padding: 50px 5vh;
-    .macbook-img-class,
-    .screen {
-      display: none;
-    }
-    .d-block {
-      display: inline !important;
-    }
-    .first-items {
-      h1 {
-        font-size: 24px;
-        letter-spacing: 2px;
-      }
-      p {
-        font-size: 16px !important;
-        line-height: 2;
-      }
-    }
-  }
-}
 </style>

@@ -36,6 +36,6 @@
 </template>
 
 <style lang="scss" scoped>
-@import "@/assets/components/footer.scss";
-@import "@/assets/media/footer.scss";
+@import "@/assets/components/_footer.scss";
+@import "@/assets/media/_footer.scss";
 </style>

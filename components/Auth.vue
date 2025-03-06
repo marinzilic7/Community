@@ -57,51 +57,6 @@
 </template>
 
 <style lang="scss" scoped>
-@import "@/assets/colors.scss";
-
-.auth-items {
-  padding: 100px 10px !important;
-
-  .form-items {
-    border-radius: 20px;
-    input {
-      border-radius: 20px;
-      padding: 10px 20px;
-    }
-    .login-btn {
-      background-color: $account-button;
-      border: none;
-      border-radius: 20px;
-    }
-    .facebook-btn {
-      background-color: #1877f2;
-      border: none;
-      border-radius: 20px;
-    }
-  }
-}
-
-@media screen and (max-width: 878px) {
-  .auth-items {
-    display: flex;
-    flex-direction: column;
-    padding: 0 2vh 5vh 2vh !important;
-  }
-  .d-block {
-    display: inline !important;
-  }
-}
-
-@media screen and (max-width: 576px) {
-  .auth-items {
-    padding: 0 2vh 5vh 2vh !important;
-    .form-items {
-      padding: 20px 10px !important;
-      margin-top: 20px;
-    }
-  }
-  .d-block {
-    display: inline !important;
-  }
-}
+@import "@/assets/components/auth.scss";
+@import "@/assets/media/auth.scss";
 </style>

@@ -43,36 +43,6 @@
 </template>
 
 <style lang="scss" scoped>
-.crew {
-  padding: 100px 0;
-
-  .crew-members {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 50px;
-    p {
-      font-size: 14px;
-    }
-  }
-}
-
-@media screen and (max-width: 768px) {
-  .crew {
-    .crew-members {
-      display: grid;
-      grid-template-columns: repeat(2, 1fr);
-    }
-  }
-}
-
-@media screen and (max-width: 576px) {
-  .crew {
-    padding: 50px 20px;
-    .crew-members {
-      display: grid;
-      grid-template-columns: repeat(2, 1fr);
-      justify-items: center;
-    }
-  }
-}
+@import "@/assets/components/_crew.scss";
+@import "@/assets/media/_crew.scss";
 </style>

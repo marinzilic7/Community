@@ -1,0 +1,19 @@
+@media screen and (max-width: 768px) {
+    .crew {
+      .crew-members {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+      }
+    }
+  }
+  
+  @media screen and (max-width: 576px) {
+    .crew {
+      padding: 50px 20px;
+      .crew-members {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        justify-items: center;
+      }
+    }
+  }

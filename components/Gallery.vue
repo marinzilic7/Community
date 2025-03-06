@@ -34,42 +34,6 @@
 </template>
 
 <style lang="scss" scoped>
-@import "@/assets/colors.scss";
-.container {
-  padding: 100px 0;
-  button {
-    background-color: $button-color;
-    border: none;
-    border-radius: 20px;
-    padding: 10px 20px;
-  }
-  .gallery-items {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    gap: 40px;
-  }
-}
-
-@media screen and (max-width: 878px) {
-  .gallery-items {
-    display: grid;
-    grid-template-columns: repeat(1, 1fr) !important;
-    img {
-      max-width: 100%;
-    }
-  }
-}
-
-@media screen and (max-width: 576px) {
-  .main-gallery-items {
-    padding: 0 10px;
-  }
-  .gallery-items {
-    display: grid;
-    grid-template-columns: repeat(1, 1fr) !important;
-    img {
-      max-width: 100%;
-    }
-  }
-}
+@import "@/assets/components/_gallery.scss";
+@import "@/assets/media/_gallery.scss";
 </style>

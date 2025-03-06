@@ -1,0 +1,28 @@
+@media screen and (max-width: 878px) {
+    .features {
+      padding: 100px 5vh;
+    }
+  }
+  
+  @media screen and (max-width: 576px) {
+    .features {
+      padding: 50px 5vh;
+      .macbook-img-class,
+      .screen {
+        display: none;
+      }
+      .d-block {
+        display: inline !important;
+      }
+      .first-items {
+        h1 {
+          font-size: 24px;
+          letter-spacing: 2px;
+        }
+        p {
+          font-size: 16px !important;
+          line-height: 2;
+        }
+      }
+    }
+  }

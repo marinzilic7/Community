@@ -69,45 +69,8 @@
 </template>
 
 <style lang="scss" scoped>
-.reviews {
-  background-color: #261360;
-  padding: 10vh 0;
 
-  .reviews-items-inner {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    gap: 50px;
-  }
+@import "@/assets/components/_reviews.scss";
+@import "@/assets/media/_reviews.scss";
 
-  p {
-    font-size: 16px;
-    line-height: 1.5;
-  }
-}
-
-@media screen and (max-width: 878px) {
-  .reviews-items-inner {
-    display: grid;
-    grid-template-columns: repeat(1, 1fr) !important;
-    padding: 10px;
-    span {
-      display: inline !important;
-    }
-  
-  }
-}
-
-@media screen and (max-width: 576px) {
-  .reviews-items-inner {
-    display: grid;
-    grid-template-columns: repeat(1, 1fr) !important;
-    padding: 10px;
-    span {
-      display: inline !important;
-    }
-    p{
-        font-size:14px;
-    }
-  }
-}
 </style>

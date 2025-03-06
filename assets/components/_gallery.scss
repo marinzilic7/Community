@@ -1,0 +1,15 @@
+@import "@/assets/colors.scss";
+.container {
+  padding: 100px 0;
+  button {
+    background-color: $button-color;
+    border: none;
+    border-radius: 20px;
+    padding: 10px 20px;
+  }
+  .gallery-items {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 40px;
+  }
+}

@@ -1,0 +1,22 @@
+@media screen and (max-width: 878px) {
+    .gallery-items {
+      display: grid;
+      grid-template-columns: repeat(1, 1fr) !important;
+      img {
+        max-width: 100%;
+      }
+    }
+  }
+  
+  @media screen and (max-width: 576px) {
+    .main-gallery-items {
+      padding: 0 10px;
+    }
+    .gallery-items {
+      display: grid;
+      grid-template-columns: repeat(1, 1fr) !important;
+      img {
+        max-width: 100%;
+      }
+    }
+  }

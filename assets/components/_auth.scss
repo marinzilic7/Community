@@ -1,0 +1,23 @@
+@import '@/assets/colors.scss';
+
+.auth-items {
+    padding: 100px 10px !important;
+  
+    .form-items {
+      border-radius: 20px;
+      input {
+        border-radius: 20px;
+        padding: 10px 20px;
+      }
+      .login-btn {
+        background-color: $account-button;
+        border: none;
+        border-radius: 20px;
+      }
+      .facebook-btn {
+        background-color: #1877f2;
+        border: none;
+        border-radius: 20px;
+      }
+    }
+  }

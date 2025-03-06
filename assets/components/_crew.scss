@@ -1,0 +1,12 @@
+.crew {
+    padding: 100px 0;
+  
+    .crew-members {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 50px;
+      p {
+        font-size: 14px;
+      }
+    }
+  }
