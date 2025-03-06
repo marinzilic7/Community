@@ -23,6 +23,7 @@
   <Gallery/>
   <Setup/>
   <Crew/>
+  <Plan/>
 </template>
 
 <style scoped lang="scss">
