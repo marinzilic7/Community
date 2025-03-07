@@ -1,5 +1,5 @@
 <template>
-  <div class="setup">
+  <div class="setup" data-aos="fade-right">
     <div class="setup-items">
       <h1 class="text-light text-center">Easy to setup.</h1>
       <h1 class="text-light text-center">Easy to maintain</h1>

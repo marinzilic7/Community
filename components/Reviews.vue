@@ -1,5 +1,5 @@
 <template>
-  <div class="reviews">
+  <div class="reviews" data-aos="fade-right">
     <div
       class="reviews-items d-flex flex-column justify-content-center align-items-center"
     >

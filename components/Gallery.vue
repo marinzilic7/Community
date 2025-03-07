@@ -1,5 +1,5 @@
 <template>
-  <div
+  <div data-aos="fade-right"
     class="container d-flex flex-column align-items-center justify-content-center"
   >
     <div class="main-gallery-items">

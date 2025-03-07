@@ -1,5 +1,5 @@
 <template>
-  <div
+  <div data-aos="fade-right"
     class="auth-items d-flex flex-wrap justify-content-evenly align-items-center mt-5 p-5"
   >
     <div>

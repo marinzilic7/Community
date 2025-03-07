@@ -1,5 +1,5 @@
 <template>
-  <div
+  <div data-aos="fade-right"
     class="plan d-flex flex-column justify-content-center align-items-center"
   >
     <div class="plan-items">

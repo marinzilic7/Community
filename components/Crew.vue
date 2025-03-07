@@ -1,5 +1,5 @@
 <template>
-  <div
+  <div data-aos="fade-right"
     class="crew d-flex flex-column justify-content-center align-items-center"
   >
     <div class="crew-items">

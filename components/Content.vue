@@ -1,5 +1,5 @@
 <template>
-  <div class="content">
+  <div class="content" data-aos="fade-right">
     <div class="main-content">
       <p class="text-center">Free Sample</p>
       <h1 class="text-center mt-3">

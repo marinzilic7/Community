@@ -1,7 +1,7 @@
 <template>
-  <div class="main">
+  <div class="main" data-aos="fade-right">
     <Navbar class="navbar-nav" />
-    <div class="main-items d-flex flex-column gap-3">
+    <div   class="main-items d-flex flex-column gap-3">
       <h4 class="startup-text text-center text-light">Startup 3</h4>
       <h1 class="text-center text-light">Forget About Code</h1>
       <h5 class="text-center text-light">
