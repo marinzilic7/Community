@@ -48,10 +48,10 @@ onMounted(() => {
               >
             </li>
             <li class="nav-item">
-              <NuxtLink class="nav-link text-light" to="#">Pricing</NuxtLink>
+              <NuxtLink class="nav-link text-light" to="#plan">Pricing</NuxtLink>
             </li>
             <li class="nav-item">
-              <NuxtLink class="nav-link text-light" to="#">Blog</NuxtLink>
+              <NuxtLink class="nav-link text-light" to="#team">Our Team</NuxtLink>
             </li>
             <li class="nav-item">
               <NuxtLink class="nav-link text-light" to="#"
