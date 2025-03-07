@@ -27,10 +27,16 @@ export default defineNuxtConfig({
     "@/assets/main.scss",
     "bootstrap/dist/css/bootstrap.min.css",
     "@fortawesome/fontawesome-free/css/all.css",
+    "aos/dist/aos.css", 
   ],
   plugins: [
     {
       src: "@/plugins/bootstrap.js",
+      mode: "client",
+
+    },
+    {
+      src: "@/plugins/aos.js",
       mode: "client",
     },
   ],
